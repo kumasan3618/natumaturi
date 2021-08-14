@@ -1,9 +1,11 @@
 <template>
   <v-container>
     <v-card class="pa-4">
-    <v-card-title class="font-weight-bold green lighten-2">夏祭り屋台ミニゲーム</v-card-title>
-    <v-card-text>夏祭りの屋台ゲームが盛りだくさん！</v-card-text>
-    <div class="card_title">
+      <h1>夏祭り屋台ミニゲーム</h1>
+    <div class="card_text">
+      <p>夏祭りの屋台ゲームが盛りだくさん！</p>
+    </div>
+    <div class="card_title_description">
       <v-card-title class="font-weight-medium">四つのゲームでスコアを稼ごう</v-card-title>
     </div>
     </v-card>
@@ -12,10 +14,10 @@
         <v-flex sm12 md12 lg12 sl2>
           <v-layout justify-content:center>
             <v-card class="pa-4">
-              <div class="item">
-              <v-card-title class="font-weight-bold">金魚すくい</v-card-title>
+              <h2 class="item">金魚すくい</h2>
+              <div class="card_text">
+                <p>金魚をねらってすくってみよう。ゲットするとポイントがもらえるよ！</p>
               </div>
-              <v-card-text>金魚をねらってすくってみよう。ゲットするとポイントがもらえるよ！</v-card-text>
               <p>
               <a href="/kingyo">
                 <img src="https://3.bp.blogspot.com/-7RdvF7W1rQ4/VKTgoGDmVsI/AAAAAAAAqVk/pgragsSDFGI/s180-c/pyoko08_kingyosukui.png">
@@ -30,10 +32,10 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
-              <div class="item">
-              <v-card-title class="font-weight-bold">射的</v-card-title>
+              <h2 class="item">射的</h2>
+              <div class="card_text">
+                <p>撃つものごとにポイントが変わるよ！　　　　　　　　　　　　　　　</p>
               </div>
-              <v-card-text>撃つものごとにポイントが変わるよ！　　　　　　　　　　　　　　　</v-card-text>
               <a href="/syateki">
               <p>
                 <img src="http://3.bp.blogspot.com/-uMiiSsDjRh4/UZM5GkVfQeI/AAAAAAAASTc/pySNdfZiMG8/s180-c/omatsuri_syateki.png">
@@ -49,10 +51,10 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
-              <div class="item">
-              <v-card-title class="font-weight-bold">輪投げ</v-card-title>
+              <h2 class="item">輪投げ</h2>
+              <div class="card_text">
+                <p>入れる場所によってポイントが変わるよ！　　　　　　　　　　　　　</p>
               </div>
-              <v-card-text>入れる場所によってポイントが変わるよ！　　　　　　　　　　　　　</v-card-text>
               <p>
               <a href="/wanage">
                 <img src="https://1.bp.blogspot.com/-Dmb6PNjwanE/XZR98B9i9fI/AAAAAAABVXI/q6p7bR4kDv4ek0cE4VchXJPVEodphTwDwCNcBGAsYHQ/s180-c/sports_wanage_board_wa.png">
@@ -67,10 +69,10 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
-              <div class="item">
-              <v-card-title class="font-weight-bold">ポイント交換所</v-card-title>
+              <h2 class="item">ポイント交換所</h2>
+              <div class="card_text">
+                <p>集めたポイントと景品を交換しよう！　　　　　　　　　　　　　　　</p>
               </div>
-              <v-card-text>集めたポイントと景品を交換しよう！　　　　　　　　　　　　　　　</v-card-text>
               <p>
               <a href="/koukan">
                 <img src="https://4.bp.blogspot.com/-_iHoiU4-aYg/Wat2Uk9FoVI/AAAAAAABGW8/cdVzb2nDlZsNthMbmEv6Xhw-UKErrxZVACLcBGAs/s180-c/building_pachinko_keihin_koukanjo.png">
@@ -90,8 +92,32 @@
   float:none;
   position:static
 }
-.card_title{
-  color: cornflowerblue;
+.card_text{
+  font-size: 16px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+h1{
+  font-size: 60px;
+  color: blue;
+  background-color: rgb(52, 241, 185);
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+h2{
+  color: blue;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.card_title_description{
+  color: rgb(255, 8, 0);
+  font-size: 40px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 }
 .minigame{
   display:flex;

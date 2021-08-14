@@ -22,5 +22,8 @@
 </template>
 
 <style>
+/* .card_text {
+
+} */
 
 </style>
