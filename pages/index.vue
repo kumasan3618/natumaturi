@@ -12,7 +12,9 @@
         <v-flex sm12 md12 lg12 sl2>
           <v-layout justify-content:center>
             <v-card class="pa-4">
+              <div class="item">
               <v-card-title class="font-weight-bold">金魚すくい</v-card-title>
+              </div>
               <v-card-text>金魚をねらってすくってみよう。ゲットするとポイントがもらえるよ！</v-card-text>
               <p>
               <a href="/kingyo">
@@ -28,7 +30,9 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
+              <div class="item">
               <v-card-title class="font-weight-bold">射的</v-card-title>
+              </div>
               <v-card-text>撃つものごとにポイントが変わるよ！　　　　　　　　　　　　　　　</v-card-text>
               <a href="/syateki">
               <p>
@@ -45,7 +49,9 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
+              <div class="item">
               <v-card-title class="font-weight-bold">輪投げ</v-card-title>
+              </div>
               <v-card-text>入れる場所によってポイントが変わるよ！　　　　　　　　　　　　　</v-card-text>
               <p>
               <a href="/wanage">
@@ -61,7 +67,9 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
+              <div class="item">
               <v-card-title class="font-weight-bold">ポイント交換所</v-card-title>
+              </div>
               <v-card-text>集めたポイントと景品を交換しよう！　　　　　　　　　　　　　　　</v-card-text>
               <p>
               <a href="/koukan">
@@ -91,6 +99,12 @@
 }
 a{
   text-decoration: none;
+}
+.item{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items:center;
 }
 
 </style>
