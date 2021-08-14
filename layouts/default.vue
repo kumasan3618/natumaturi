@@ -37,7 +37,7 @@
     </v-main>
 
     <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>&copy; {{ new Date().getFullYear() }} アニマルズ</span>
     </v-footer>
   </v-app>
 </template>
@@ -56,17 +56,17 @@ export default {
           to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-gamepad-variant',
           title: '金魚すくい',
           to: '/kingyo',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-gamepad-variant',
           title: '射的',
           to: '/syateki',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-gamepad-variant',
           title: '輪投げ',
           to: '/wanage',
         },

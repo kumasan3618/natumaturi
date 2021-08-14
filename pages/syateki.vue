@@ -24,11 +24,7 @@
 </template>
 
 <style>
-.syateki_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 h1 {
   font-size: 60px;
   color:blue;
