@@ -3,7 +3,9 @@
     <v-card class="pa-4">
     <v-card-title class="font-weight-bold green lighten-2">夏祭り屋台ミニゲーム</v-card-title>
     <v-card-text>夏祭りの屋台ゲームが盛りだくさん！</v-card-text>
-    <v-card-title>四つのゲームでスコアを稼ごう</v-card-title>
+    <div class="card_title">
+      <v-card-title class="font-weight-medium">四つのゲームでスコアを稼ごう</v-card-title>
+    </div>
     </v-card>
     <div class="minigame">
       <v-layout class="pt-4">
@@ -15,7 +17,7 @@
               <p>
               <a href="/kingyo">
                 <img src="https://3.bp.blogspot.com/-7RdvF7W1rQ4/VKTgoGDmVsI/AAAAAAAAqVk/pgragsSDFGI/s180-c/pyoko08_kingyosukui.png">
-                  <v-btn outlline round class="red lighten-5">金魚すくい</v-btn>
+                  <v-btn outlline round class="blue lighten-3">金魚すくいへ</v-btn>
               </a>
               </p>
             </v-card>
@@ -31,7 +33,7 @@
               <a href="/syateki">
               <p>
                 <img src="http://3.bp.blogspot.com/-uMiiSsDjRh4/UZM5GkVfQeI/AAAAAAAASTc/pySNdfZiMG8/s180-c/omatsuri_syateki.png">
-                <v-btn outlline round class="red lighten-5">射的</v-btn>
+                <v-btn outlline round class="blue lighten-3">射的ゲームへ</v-btn>
               </p>
               </a>
               
@@ -48,7 +50,7 @@
               <p>
               <a href="/wanage">
                 <img src="https://1.bp.blogspot.com/-Dmb6PNjwanE/XZR98B9i9fI/AAAAAAABVXI/q6p7bR4kDv4ek0cE4VchXJPVEodphTwDwCNcBGAsYHQ/s180-c/sports_wanage_board_wa.png">
-                <v-btn outlline round class="red lighten-5">輪投げ</v-btn>
+                <v-btn outlline round class="blue lighten-3">輪投げゲームへ</v-btn>
               </a>
               </p>
             </v-card>
@@ -64,7 +66,7 @@
               <p>
               <a href="/koukan">
                 <img src="https://4.bp.blogspot.com/-_iHoiU4-aYg/Wat2Uk9FoVI/AAAAAAABGW8/cdVzb2nDlZsNthMbmEv6Xhw-UKErrxZVACLcBGAs/s180-c/building_pachinko_keihin_koukanjo.png">
-                <v-btn outlline round class="red lighten-5">交換所</v-btn>
+                <v-btn outlline round class="blue lighten-3">交換所へ</v-btn>
               </a>
               </p>
             </v-card>
@@ -80,12 +82,15 @@
   float:none;
   position:static
 }
+.card_title{
+  color: cornflowerblue;
+}
 .minigame{
   display:flex;
   flex-flow: row wrap;
 }
 a{
   text-decoration: none;
-  color: lightsalmon;
 }
+
 </style>

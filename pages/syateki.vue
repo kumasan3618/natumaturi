@@ -9,7 +9,7 @@
           <li>W：銃口が上に向くよ！</li>
           <li>S：銃口が右に向くよ！</li>
           <li>D：銃口が下に向くよ！</li>
-          <li>spacekey：弾丸を打つよ！</li>   
+          <li>spacekey：弾丸を打って的に当てよう！</li>   
           </v-card>
         <iframe
           width="100%"
