@@ -126,8 +126,8 @@
 }
 h1 {
   font-size: 60px;
-  color: blue;
-  background-color: rgb(52, 241, 185);
+  color: rgb(253, 242, 218);
+  background-color: rgb(184, 0, 86);
   display: flex;
   justify-content: center;
   align-items: center;
