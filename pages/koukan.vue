@@ -32,6 +32,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 1px 1px 0 #000,
+               -1px 1px 0 #000,
+               1px -1px 0 #000,
+               -1px -1px 0 #000;
 }
 .card_text{
   font-size: 16px;

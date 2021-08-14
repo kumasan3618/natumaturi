@@ -1,12 +1,12 @@
 <template>
   <v-container>
     <v-card class="pa-4">
-      <h1>夏祭り屋台ミニゲーム</h1>
+      <h1 class="card_title">夏祭り屋台ミニゲーム</h1>
       <div class="card_text">
         <p>夏祭りの屋台ゲームが盛りだくさん！</p>
       </div>
       <div class="card_title_description">
-        <v-card-title class="font-weight-medium"
+        <v-card-title class="font-weight-bold"
           >四つのゲームでスコアを稼ごう</v-card-title
         >
       </div>
@@ -117,21 +117,31 @@
 }
 .card {
   width: 544px;
+  background-color: #fff;
 }
+
 .card_text {
   font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-h1 {
+.card_title {
   font-size: 60px;
-  color: rgb(253, 242, 218);
-  background-color: rgb(184, 0, 86);
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  text-shadow: 0 0 5px #fff,
+               0 0 15px #fff,
+               0 0 35px #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(184, 0, 86)), to(#f83600));
+  background-image: -webkit-linear-gradient(left, rgb(184, 0, 86) 0%, #f83600 100%);
+  background-image: linear-gradient(to right, rgb(184, 0, 86) 0%, #f83600 100%);
 }
+
 h2 {
   color: blue;
   display: flex;
@@ -140,10 +150,13 @@ h2 {
 }
 .card_title_description {
   color: rgb(255, 8, 0);
-  font-size: 40px;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fef81e;
+  text-shadow: 1px 1px 0 #e92525,
+               -1px -1px 0 #2ab6f1;
 }
 .minigame {
   display: flex;
@@ -160,5 +173,11 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.v-btn{
+  text-shadow: 1px 1px 0 #fff,
+               -1px 1px 0 #fff,
+               1px -1px 0 #fff,
+               -1px -1px 0 #fff;
 }
 </style>

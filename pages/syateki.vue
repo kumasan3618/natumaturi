@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="pa-4">
-      <h1>射 的</h1>
+      <h1 class="syateki_title">射 的</h1>
       <div class="card_text">
         <p>的に銃弾を当てよう</p>
       </div>
@@ -25,13 +25,21 @@
 
 <style>
 
-h1 {
+.syateki_title {
   font-size: 60px;
-  color:blue;
-  background-color: rgb(52, 241, 185);
+  color:red;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 1px 1px 0 #000,
+               -1px 1px 0 #000,
+               1px -1px 0 #000,
+               -1px -1px 0 #000;
+  padding:1rem;
+  border-radius: 10vh;
+  background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), to(#00e3ae));
+  background-image: -webkit-linear-gradient(right, #9be15d 0%, #00e3ae 100%);
+  background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
 }
 .card_text{
   font-size: 16px;
