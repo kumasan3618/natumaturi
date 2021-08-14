@@ -3,7 +3,7 @@
     <v-card class="pa-4">
       <h1>射 的</h1>
       <div class="card_text">
-        <p></p>
+        <p>的に銃弾を当てよう</p>
       </div>
       <v-card-title class="pt-0">操作方法</v-card-title>
       <p>使うボタンは五つ！(A,W,S,D,spacekey)</p>
@@ -31,10 +31,17 @@
 }
 h1 {
   font-size: 60px;
-  color:brown;
-  background-color: rgb(156, 241, 213);
+  color:blue;
+  background-color: rgb(52, 241, 185);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.card_text{
+  font-size: 16px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:1% ;
 }
 </style>
