@@ -57,11 +57,6 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
-        },
-        {
-          icon: 'mdi-chart-bubble',
           title: '金魚すくい',
           to: '/kingyo',
         },

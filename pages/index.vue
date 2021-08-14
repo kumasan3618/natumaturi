@@ -15,7 +15,7 @@
               <p>
               <a href="/kingyo">
                 <img src="https://3.bp.blogspot.com/-7RdvF7W1rQ4/VKTgoGDmVsI/AAAAAAAAqVk/pgragsSDFGI/s180-c/pyoko08_kingyosukui.png">
-                金魚すくい
+                  <v-btn outlline round class="red lighten-5">金魚すくい</v-btn>
               </a>
               </p>
             </v-card>
@@ -28,12 +28,13 @@
             <v-card class="pa-4">
               <v-card-title class="font-weight-bold">射的</v-card-title>
               <v-card-text>撃つものごとにポイントが変わるよ！　　　　　　　　　　　　　　　</v-card-text>
-              <p>
               <a href="/syateki">
+              <p>
                 <img src="http://3.bp.blogspot.com/-uMiiSsDjRh4/UZM5GkVfQeI/AAAAAAAASTc/pySNdfZiMG8/s180-c/omatsuri_syateki.png">
-                射的
-              </a>
+                <v-btn outlline round class="red lighten-5">射的</v-btn>
               </p>
+              </a>
+              
             </v-card>
           </v-layout>
         </v-flex>
@@ -47,7 +48,7 @@
               <p>
               <a href="/wanage">
                 <img src="https://1.bp.blogspot.com/-Dmb6PNjwanE/XZR98B9i9fI/AAAAAAABVXI/q6p7bR4kDv4ek0cE4VchXJPVEodphTwDwCNcBGAsYHQ/s180-c/sports_wanage_board_wa.png">
-                輪投げ
+                <v-btn outlline round class="red lighten-5">輪投げ</v-btn>
               </a>
               </p>
             </v-card>
@@ -63,7 +64,7 @@
               <p>
               <a href="/koukan">
                 <img src="https://4.bp.blogspot.com/-_iHoiU4-aYg/Wat2Uk9FoVI/AAAAAAABGW8/cdVzb2nDlZsNthMbmEv6Xhw-UKErrxZVACLcBGAs/s180-c/building_pachinko_keihin_koukanjo.png">
-                交換所
+                <v-btn outlline round class="red lighten-5">交換所</v-btn>
               </a>
               </p>
             </v-card>
@@ -82,5 +83,9 @@
 .minigame{
   display:flex;
   flex-flow: row wrap;
+}
+a{
+  text-decoration: none;
+  color: lightsalmon;
 }
 </style>

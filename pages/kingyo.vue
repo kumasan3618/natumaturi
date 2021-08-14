@@ -14,6 +14,5 @@
 </template>
 
 <style>
-iframe {
-}
+
 </style>
