@@ -14,14 +14,14 @@
         <v-flex sm12 md12 lg12 sl2>
           <v-layout justify-content:center>
             <v-card class="pa-4">
-              <h2 class="item">金魚すくい</h2>
+              <h2 class="yatai_title">金魚すくい</h2>
               <div class="card_text">
                 <p>金魚をねらってすくってみよう。ゲットするとポイントがもらえるよ！</p>
               </div>
               <p>
               <a href="/kingyo">
                 <img src="https://3.bp.blogspot.com/-7RdvF7W1rQ4/VKTgoGDmVsI/AAAAAAAAqVk/pgragsSDFGI/s180-c/pyoko08_kingyosukui.png">
-                  <v-btn outlline round class="blue lighten-3">金魚すくいへ</v-btn>
+                  <v-btn outlline rounded class="blue lighten-3">金魚すくいへ</v-btn>
               </a>
               </p>
             </v-card>
@@ -32,14 +32,14 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
-              <h2 class="item">射的</h2>
+              <h2 class="yatai_title">射的</h2>
               <div class="card_text">
                 <p>撃つものごとにポイントが変わるよ！　　　　　　　　　　　　　　　</p>
               </div>
               <a href="/syateki">
               <p>
                 <img src="http://3.bp.blogspot.com/-uMiiSsDjRh4/UZM5GkVfQeI/AAAAAAAASTc/pySNdfZiMG8/s180-c/omatsuri_syateki.png">
-                <v-btn outlline round class="blue lighten-3">射的ゲームへ</v-btn>
+                <v-btn outlline rounded class="blue lighten-3">射的ゲームへ</v-btn>
               </p>
               </a>
               
@@ -51,14 +51,14 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
-              <h2 class="item">輪投げ</h2>
+              <h2 class="yatai_title">輪投げ</h2>
               <div class="card_text">
                 <p>入れる場所によってポイントが変わるよ！　　　　　　　　　　　　　</p>
               </div>
               <p>
               <a href="/wanage">
                 <img src="https://1.bp.blogspot.com/-Dmb6PNjwanE/XZR98B9i9fI/AAAAAAABVXI/q6p7bR4kDv4ek0cE4VchXJPVEodphTwDwCNcBGAsYHQ/s180-c/sports_wanage_board_wa.png">
-                <v-btn outlline round class="blue lighten-3">輪投げゲームへ</v-btn>
+                <v-btn outlline rounded class="blue lighten-3">輪投げゲームへ</v-btn>
               </a>
               </p>
             </v-card>
@@ -69,14 +69,14 @@
         <v-flex sm12 md12 lg12>
           <v-layout justify-content:center>
             <v-card class="pa-4">
-              <h2 class="item">ポイント交換所</h2>
+              <h2 class="yatai_title">ポイント交換所</h2>
               <div class="card_text">
                 <p>集めたポイントと景品を交換しよう！　　　　　　　　　　　　　　　</p>
               </div>
               <p>
               <a href="/koukan">
                 <img src="https://4.bp.blogspot.com/-_iHoiU4-aYg/Wat2Uk9FoVI/AAAAAAABGW8/cdVzb2nDlZsNthMbmEv6Xhw-UKErrxZVACLcBGAs/s180-c/building_pachinko_keihin_koukanjo.png">
-                <v-btn outlline round class="blue lighten-3">交換所へ</v-btn>
+                <v-btn outlline rounded class="blue lighten-3">交換所へ</v-btn>
               </a>
               </p>
             </v-card>
@@ -126,7 +126,7 @@ h2{
 a{
   text-decoration: none;
 }
-.item{
+.yatai_title{
   display: flex;
   justify-content:center;
   flex-direction: column;
