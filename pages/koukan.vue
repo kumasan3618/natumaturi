@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col class="text-center">
-        <h1>金魚すくい</h1>
+        <h1>交換所</h1>
       <iframe
         width="100%"
         height="750px"

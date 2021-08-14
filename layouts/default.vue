@@ -24,48 +24,19 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar
-      :clipped-left="clipped"
-      fixed
-      app
-    >
+    <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      
-        
-      
-        
-      
-      
+
       <v-toolbar-title v-text="title" />
       <v-spacer />
-      
     </v-app-bar>
     <v-main>
       <v-container>
         <Nuxt />
       </v-container>
     </v-main>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-    <v-footer
-      :absolute="!fixed"
-      app
-    >
+
+    <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
@@ -73,7 +44,7 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       clipped: false,
       drawer: false,
@@ -82,25 +53,39 @@ export default {
         {
           icon: 'mdi-apps',
           title: 'Home',
-          to: '/'
+          to: '/',
         },
         {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
-          to: '/inspire'
+          to: '/inspire',
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'kingyo',
-          to: '/kingyo'
-        }
+          title: '金魚すくい',
+          to: '/kingyo',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: '射的',
+          to: '/syateki',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: '輪投げ',
+          to: '/wanage',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: '交換所',
+          to: '/koukan',
+        },
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: '夏祭り'
+      title: '夏祭り',
     }
-  }
+  },
 }
 </script>
-
