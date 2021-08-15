@@ -57,8 +57,8 @@ export default {
         },
         {
           icon: 'mdi-gamepad-variant',
-          title: '金魚すくい',
-          to: '/kingyo',
+          title: 'ボールすくい',
+          to: '/tama',
         },
         {
           icon: 'mdi-gamepad-variant',

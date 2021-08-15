@@ -7,7 +7,7 @@
       </div>
       <div class="card_title_description">
         <v-card-title class="font-weight-bold"
-          >四つのゲームでスコアを稼ごう</v-card-title
+          >３つのゲームでスコアを稼ごう</v-card-title
         >
       </div>
     </v-card>
@@ -17,19 +17,22 @@
           <v-layout justify-content:center>
             <div class="card">
               <v-card class="pa-4">
-                <h2 class="yatai_title">金魚すくい</h2>
+                <h2 class="yatai_title">ボールすくい</h2>
                 <div class="card_text">
                   <p>
-                    金魚をねらってすくってみよう。ゲットするとポイントがもらえるよ！
+                    ボールをねらってすくってみよう。
                   </p>
                 </div>
 
-                <a href="/kingyo">
+                <a href="/tama">
                   <img
-                    src="https://3.bp.blogspot.com/-7RdvF7W1rQ4/VKTgoGDmVsI/AAAAAAAAqVk/pgragsSDFGI/s180-c/pyoko08_kingyosukui.png"
+                    src="http://3.bp.blogspot.com/-ieWTcRTJa1s/UgsvKxNt9HI/AAAAAAAAXRc/QuRVb2K7rK4/s180-c/superball_sukui.png"
                   />
-                  <v-btn outlline rounded class="blue lighten-3"
-                    >金魚すくいへ</v-btn
+                  <v-btn
+                    outlline
+                    rounded
+                    class="font-weight-bold blue lighten-3"
+                    >ボールすくいへ</v-btn
                   >
                 </a>
               </v-card>
@@ -51,7 +54,10 @@
                   <img
                     src="http://3.bp.blogspot.com/-uMiiSsDjRh4/UZM5GkVfQeI/AAAAAAAASTc/pySNdfZiMG8/s180-c/omatsuri_syateki.png"
                   />
-                  <v-btn outlline rounded class="blue lighten-3"
+                  <v-btn
+                    outlline
+                    rounded
+                    class="font-weight-bold blue lighten-3"
                     >射的ゲームへ</v-btn
                   >
                 </a>
@@ -74,7 +80,10 @@
                   <img
                     src="https://1.bp.blogspot.com/-Dmb6PNjwanE/XZR98B9i9fI/AAAAAAABVXI/q6p7bR4kDv4ek0cE4VchXJPVEodphTwDwCNcBGAsYHQ/s180-c/sports_wanage_board_wa.png"
                   />
-                  <v-btn outlline rounded class="blue lighten-3"
+                  <v-btn
+                    outlline
+                    rounded
+                    class="font-weight-bold blue lighten-3"
                     >輪投げゲームへ</v-btn
                   >
                 </a>
@@ -97,7 +106,10 @@
                   <img
                     src="https://4.bp.blogspot.com/-_iHoiU4-aYg/Wat2Uk9FoVI/AAAAAAABGW8/cdVzb2nDlZsNthMbmEv6Xhw-UKErrxZVACLcBGAs/s180-c/building_pachinko_keihin_koukanjo.png"
                   />
-                  <v-btn outlline rounded class="blue lighten-3"
+                  <v-btn
+                    outlline
+                    rounded
+                    class="font-weight-bold blue lighten-3"
                     >交換所へ</v-btn
                   >
                 </a>
@@ -132,13 +144,21 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  text-shadow: 0 0 5px #fff,
-               0 0 15px #fff,
-               0 0 35px #fff;
+  text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 35px #fff;
   border-radius: 10px;
   padding: 1rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(184, 0, 86)), to(#f83600));
-  background-image: -webkit-linear-gradient(left, rgb(184, 0, 86) 0%, #f83600 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgb(184, 0, 86)),
+    to(#f83600)
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    rgb(184, 0, 86) 0%,
+    #f83600 100%
+  );
   background-image: linear-gradient(to right, rgb(184, 0, 86) 0%, #f83600 100%);
 }
 
@@ -147,6 +167,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 35px #fff;
 }
 .card_title_description {
   color: rgb(255, 8, 0);
@@ -155,8 +176,7 @@ h2 {
   justify-content: center;
   align-items: center;
   color: #fef81e;
-  text-shadow: 1px 1px 0 #e92525,
-               -1px -1px 0 #2ab6f1;
+  text-shadow: 1px 1px 0 #e92525, -1px -1px 0 #2ab6f1;
 }
 .minigame {
   display: flex;
@@ -174,10 +194,9 @@ a {
   flex-direction: column;
   align-items: center;
 }
-.v-btn{
-  text-shadow: 1px 1px 0 #fff,
-               -1px 1px 0 #fff,
-               1px -1px 0 #fff,
-               -1px -1px 0 #fff;
+a .v-btn {
+  text-shadow: 1px 1px 0 #2ab6f1, -1px 1px 0 #2ab6f1, 1px -1px 0 #2ab6f1,
+    -1px -1px 0 #2ab6f1;
 }
+
 </style>

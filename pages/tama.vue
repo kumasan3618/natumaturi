@@ -1,9 +1,9 @@
 <template>
   <v-container>
     <v-card class="pa-4">
-      <h1 class="kingyo_title">金魚すくい</h1>
+      <h1 class="kingyo_title">ボールすくい</h1>
       <div class="card_text">
-        <p>金魚をいっぱいすくおう</p>
+        <p>ボールをいっぱいすくおう</p>
       </div>
       <v-card-title class="pt-0">操作方法</v-card-title>
       <p>使うボタンは五つ！(A,W,S,D,spacekey)</p>
