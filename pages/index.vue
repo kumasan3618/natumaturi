@@ -110,7 +110,7 @@
                     outlline
                     rounded
                     class="font-weight-bold blue lighten-3"
-                    >結果へ</v-btn
+                    >くじ引きへ</v-btn
                   >
                 </a>
               </v-card>

@@ -13,7 +13,6 @@
       <button type="button" class="restart" style="display: none">
         もう一度
       </button>
-      
     </div>
   </v-container>
 </template>
@@ -31,7 +30,6 @@ export default {
 }
 if (process.client) {
   $(function () {
-    //候補を配列で設定
     var aryList = [
       '特賞',
       '1等',
@@ -42,41 +40,34 @@ if (process.client) {
       'はずれ',
       'はずれ',
     ]
-    
-    //グローバル変数
+
     var key = 0
     var max_len = aryList.length - 1
     var randStart
-    var speed = 25 //シャッフルスピード
+    var speed = 25
 
-    //文字シャッフル関数
-    //20ミリ秒毎に候補の文字列をシャッフルさせる
     var randShuffle = function () {
       if (key > max_len) key = 0
       $('.rand_name').text(aryList[key])
       key++
     }
-    //文字シャッフル開始
-    randStart = setInterval(randShuffle, speed)
 
-    //回転を止める（抽選結果）
+    randStart = setInterval(randShuffle, speed)
     $('.stop').click(function () {
-      var random = Math.floor(Math.random() * (max_len + 1)) //ランダムで配列の数を取得
-      $('.rand_name').text(aryList[random]) //対象の数値に該当する文字を表示
-      clearInterval(randStart) //シャッフルストップ
-      $(this).hide() //止めるボタンの非表示
-      $('.restart').show() //再開ボタンの表示
+      var random = Math.floor(Math.random() * (max_len + 1))
+      $('.rand_name').text(aryList[random])
+      clearInterval(randStart)
+      $(this).hide()
+      $('.restart').show()
       $('.present').show()
     })
 
-    //回転を再開する
     $('.restart').click(function () {
-      $(this).hide() //再開ボタンの非表示
+      $(this).hide()
       $('.present').hide()
-      $('.stop').show() //止めるボタンの表示
-      randStart = setInterval(randShuffle, speed) //シャッフル再開
+      $('.stop').show()
+      randStart = setInterval(randShuffle, speed)
     })
-    
   })
 }
 </script>
@@ -157,7 +148,6 @@ if (process.client) {
   cursor: pointer;
 }
 
-
 .stop {
   background-color: #e1ce08;
 }
@@ -165,5 +155,4 @@ if (process.client) {
 .restart {
   background-color: coral;
 }
-
 </style>
