@@ -47,7 +47,7 @@
               <v-card class="pa-4">
                 <h2 class="yatai_title">射的</h2>
                 <div class="card_text">
-                  <p>撃つものごとにポイントが変わるよ！</p>
+                  <p>撃って的を飛ばそう！</p>
                 </div>
 
                 <a href="/syateki">
@@ -73,7 +73,7 @@
               <v-card class="pa-4">
                 <h2 class="yatai_title">輪投げ</h2>
                 <div class="card_text">
-                  <p>入れる場所によってポイントが変わるよ！</p>
+                  <p>輪を投げよう！</p>
                 </div>
 
                 <a href="/wanage">
