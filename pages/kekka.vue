@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="pa-4">
-      <h1>交換所</h1>
+      <h1 class="kekka_title">結果</h1>
       <div class="card_text">
         <h3>結果発表</h3>
       </div>
@@ -21,14 +21,14 @@
 </template>
 
 <style>
-h3{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 2rem;
-}
-h1 {
+
+.kekka_title {
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'Hiragino Mincho ProN', 'HGS明朝E', 'ＭＳ Ｐ明朝', serif;
+  position: relative;
+  padding: 1.5rem 2rem;
+  -webkit-box-shadow: 0 2px 14px rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, .1);
   font-size: 60px;
-  color:blue;
-  background-color: rgb(52, 241, 185);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,12 +37,31 @@ h1 {
                1px -1px 0 #000,
                -1px -1px 0 #000;
 }
+.kekka_title:before,
+.kekka_title:after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  content: '';
+  background-image: -webkit-linear-gradient(315deg, #704308 0%, #ffce08 40%, #e1ce08 60%, #704308 100%);
+  background-image: linear-gradient(135deg, #704308 0%, #ffce08 40%, #e1ce08 60%, #704308 100%);
+}
+
+.kekka_title:before {
+  top: 0;
+}
+
+.kekka_title:after {
+  bottom: 0;
+}
 .card_text{
   font-size: 16px;
   display: flex;
   justify-content:center;
   align-items:center;
   padding-top:1% ;
+  font-size:2rem;
 }
 .kakukekka{
   display: flex;

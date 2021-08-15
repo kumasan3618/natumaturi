@@ -7,9 +7,9 @@
       </div>
       <v-card-title class="pt-0">操作方法</v-card-title>
       <p>使うボタンは1つ！(spacekey)</p>
-      <li>spacekey:1回目は左右に動くよ！</li>
+      <li>spacekey:1回目は輪が出てきて左右に動くよ！</li>
       <li>spacekey:2回目は上下に動くよ！</li>
-      <li>spacekey:3回目は輪を投げるよ！</li>
+      <li>spacekey:3回目は場所が決定し輪を投げるよ！</li>
     </v-card>
     <iframe
       width="100%"

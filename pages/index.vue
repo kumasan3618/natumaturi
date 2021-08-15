@@ -97,12 +97,12 @@
           <v-layout justify-content:center>
             <div class="card">
               <v-card class="pa-4">
-                <h2 class="yatai_title">ポイント交換所</h2>
+                <h2 class="yatai_title">結果の確認</h2>
                 <div class="card_text">
-                  <p>集めたポイントと景品を交換しよう！</p>
+                  <p>結果が確認できるよ！</p>
                 </div>
 
-                <a href="/koukan">
+                <a href="/kekka">
                   <img
                     src="https://4.bp.blogspot.com/-_iHoiU4-aYg/Wat2Uk9FoVI/AAAAAAABGW8/cdVzb2nDlZsNthMbmEv6Xhw-UKErrxZVACLcBGAs/s180-c/building_pachinko_keihin_koukanjo.png"
                   />
@@ -110,7 +110,7 @@
                     outlline
                     rounded
                     class="font-weight-bold blue lighten-3"
-                    >交換所へ</v-btn
+                    >結果へ</v-btn
                   >
                 </a>
               </v-card>

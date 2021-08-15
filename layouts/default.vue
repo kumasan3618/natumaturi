@@ -72,8 +72,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: '交換所',
-          to: '/koukan',
+          title: '結果',
+          to: '/kekka',
         },
       ],
       miniVariant: false,
