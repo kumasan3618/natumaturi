@@ -97,14 +97,14 @@
           <v-layout justify-content:center>
             <div class="card">
               <v-card class="pa-4">
-                <h2 class="yatai_title">結果の確認</h2>
+                <h2 class="yatai_title">くじ引き</h2>
                 <div class="card_text">
-                  <p>結果が確認できるよ！</p>
+                  <p>くじを引こう！</p>
                 </div>
 
-                <a href="/kekka">
+                <a href="/kuzi">
                   <img
-                    src="https://4.bp.blogspot.com/-_iHoiU4-aYg/Wat2Uk9FoVI/AAAAAAABGW8/cdVzb2nDlZsNthMbmEv6Xhw-UKErrxZVACLcBGAs/s180-c/building_pachinko_keihin_koukanjo.png"
+                    src="http://2.bp.blogspot.com/-w3-rg9hwaac/Us_MQyshtNI/AAAAAAAAdDs/Nr6VgQvdO10/s180-c/kujibiki_box.png"
                   />
                   <v-btn
                     outlline

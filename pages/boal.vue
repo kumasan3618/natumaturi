@@ -6,17 +6,12 @@
         <p>ボールをいっぱいすくおう</p>
       </div>
       <v-card-title class="pt-0">操作方法</v-card-title>
-      <p>使うボタンは五つ！(A,W,S,D,spacekey)</p>
-      <li>A：銃口が左に向くよ！</li>
-      <li>W：銃口が上に向くよ！</li>
-      <li>S：銃口が右に向くよ！</li>
-      <li>D：銃口が下に向くよ！</li>
-      <li>spacekey：弾丸を打って的に当てよう！</li>
+      <p>ただいま準備中</p>
     </v-card>
     <iframe
       width="100%"
       height="750px"
-      src="https://daipengin.github.io/syateki2/"
+      src="https://daipengin.github.io/tamasukui2/"
       frameborder="0"
       allowfullscreen
     ></iframe>

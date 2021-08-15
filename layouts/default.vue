@@ -72,8 +72,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: '結果',
-          to: '/kekka',
+          title: 'くじ引き',
+          to: '/kuzi',
         },
       ],
       miniVariant: false,
