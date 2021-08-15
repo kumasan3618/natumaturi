@@ -130,6 +130,7 @@
 .card {
   width: 544px;
   background-color: #fff;
+  margin:10px
 }
 
 .card_text {
