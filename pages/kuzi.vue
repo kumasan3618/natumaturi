@@ -7,14 +7,13 @@
       </div>
     </v-card>
     <div class="rand_area">
-    あなたの運勢は
+      結果は
       <div class="rand_name"></div>
       <button type="button" class="stop">ストップ！</button>
       <button type="button" class="restart" style="display: none">
         もう一度
       </button>
-      <div class="present_item"></div>
-      <button type="button" class="present" style="display: none">プレゼントを受け取る</button>
+      
     </div>
   </v-container>
 </template>
@@ -33,13 +32,22 @@ export default {
 if (process.client) {
   $(function () {
     //候補を配列で設定
-    var aryList = ['特賞', '1等', '２等', '３等', '４等', '５等', 'はずれ','はずれ']
-    var presentList=['n','a','a','a','a','a']
+    var aryList = [
+      '特賞',
+      '1等',
+      '２等',
+      '３等',
+      '４等',
+      '５等',
+      'はずれ',
+      'はずれ',
+    ]
+    
     //グローバル変数
     var key = 0
     var max_len = aryList.length - 1
     var randStart
-    var speed = 20 //シャッフルスピード
+    var speed = 25 //シャッフルスピード
 
     //文字シャッフル関数
     //20ミリ秒毎に候補の文字列をシャッフルさせる
@@ -68,32 +76,25 @@ if (process.client) {
       $('.stop').show() //止めるボタンの表示
       randStart = setInterval(randShuffle, speed) //シャッフル再開
     })
-    $('.present').click(function () {
-      $('.present_item').text(presentList[random]) 
-      $(this).hide()
-      $('.restart').hide() //再開ボタンの非表示
-      $('.present').hide()
-      
-    })
+    
   })
 }
 </script>
 
 <style>
 .kekka_title {
-  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'Hiragino Mincho ProN', 'HGS明朝E', 'ＭＳ Ｐ明朝', serif;
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro',
+    'Hiragino Mincho ProN', 'HGS明朝E', 'ＭＳ Ｐ明朝', serif;
   position: relative;
   padding: 1.5rem 2rem;
-  -webkit-box-shadow: 0 2px 14px rgba(0, 0, 0, .1);
-  box-shadow: 0 2px 14px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
   font-size: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 1px 1px 0 #000,
-               -1px 1px 0 #000,
-               1px -1px 0 #000,
-               -1px -1px 0 #000;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 .kekka_title:before,
 .kekka_title:after {
@@ -102,8 +103,20 @@ if (process.client) {
   width: 100%;
   height: 4px;
   content: '';
-  background-image: -webkit-linear-gradient(315deg, #704308 0%, #ffce08 40%, #e1ce08 60%, #704308 100%);
-  background-image: linear-gradient(135deg, #704308 0%, #ffce08 40%, #e1ce08 60%, #704308 100%);
+  background-image: -webkit-linear-gradient(
+    315deg,
+    #704308 0%,
+    #ffce08 40%,
+    #e1ce08 60%,
+    #704308 100%
+  );
+  background-image: linear-gradient(
+    135deg,
+    #704308 0%,
+    #ffce08 40%,
+    #e1ce08 60%,
+    #704308 100%
+  );
 }
 
 .kekka_title:before {
@@ -113,13 +126,13 @@ if (process.client) {
 .kekka_title:after {
   bottom: 0;
 }
-.card_text{
+.card_text {
   font-size: 16px;
   display: flex;
-  justify-content:center;
-  align-items:center;
-  padding-top:1% ;
-  font-size:2rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+  font-size: 2rem;
 }
 .rand_area {
   box-sizing: border-box;
@@ -143,21 +156,14 @@ if (process.client) {
   margin-top: 10px;
   cursor: pointer;
 }
-.present_item{
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-}
 
 
 .stop {
-  background-color:#e1ce08;
+  background-color: #e1ce08;
 }
 
 .restart {
-  background-color:coral;
+  background-color: coral;
 }
-.present{
-    background-color: crimson;
-}
+
 </style>
