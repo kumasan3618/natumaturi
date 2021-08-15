@@ -24,7 +24,7 @@
                   </p>
                 </div>
 
-                <a href="/tama">
+                <a href="/boal">
                   <img
                     src="http://3.bp.blogspot.com/-ieWTcRTJa1s/UgsvKxNt9HI/AAAAAAAAXRc/QuRVb2K7rK4/s180-c/superball_sukui.png"
                   />

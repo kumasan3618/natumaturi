@@ -58,7 +58,7 @@ export default {
         {
           icon: 'mdi-gamepad-variant',
           title: 'ボールすくい',
-          to: '/tama',
+          to: '/boal',
         },
         {
           icon: 'mdi-gamepad-variant',
