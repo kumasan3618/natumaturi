@@ -144,7 +144,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 35px #fff;
+  text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 35px #fff,3px 3px 0 #000;
   border-radius: 10px;
   padding: 1rem;
   background-image: -webkit-gradient(

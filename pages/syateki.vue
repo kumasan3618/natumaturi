@@ -31,10 +31,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 1px 1px 0 #000,
-               -1px 1px 0 #000,
-               1px -1px 0 #000,
-               -1px -1px 0 #000;
+  text-shadow: 3px 3px 0 #000,
+               -1px 1px 0 #fff;
+               
   padding:1rem;
   border-radius: 10vh;
   background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), to(#00e3ae));

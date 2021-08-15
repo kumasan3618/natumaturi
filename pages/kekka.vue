@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="pa-4">
-      <h1 class="kekka_title">結果</h1>
+      <p class="kekka_title">結果</p>
       <div class="card_text">
         <h3>結果発表</h3>
       </div>
